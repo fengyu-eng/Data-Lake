@@ -33,15 +33,15 @@
 
 1）ODS层建设
 
-1. 日志数据->Kafka->Flink Kafka Connector![image-20251210152105004](C:\Users\32160\AppData\Roaming\Typora\typora-user-images\image-20251210152105004.png)
+1. 日志数据->Kafka->Flink Kafka Connector![ODS](images/image-20251210152105004)
 
 2. 业务数据->MySQL->Flink CDC
 
-   ![image-20251210152128407](C:\Users\32160\AppData\Roaming\Typora\typora-user-images\image-20251210152128407.png)
+   ![ODS](images/image-20251210152128407)
 
    
 
-3. 元数据存储在Hive中，实际数据存储在HDFS，示例：![image-20251210152840540](C:\Users\32160\AppData\Roaming\Typora\typora-user-images\image-20251210152840540.png)
+4. 元数据存储在Hive中，实际数据存储在HDFS，示例：![image-20251210152840540](C:\Users\32160\AppData\Roaming\Typora\typora-user-images\image-20251210152840540.png)
 
 
 
@@ -71,5 +71,6 @@
 
 
 ![image-20251210154827469](C:\Users\32160\AppData\Roaming\Typora\typora-user-images\image-20251210154827469.png)
+
 
 
