@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- 控制台输出 -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <!-- 根日志级别 -->
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+        </Root>
+        <!-- 调整Paimon/Flink日志级别，避免过多日志 -->
+        <Logger name="org.apache.paimon" level="WARN"/>
+        <Logger name="org.apache.flink" level="WARN"/>
+    </Loggers>
+</Configuration>
