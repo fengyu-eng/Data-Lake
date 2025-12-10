@@ -6,7 +6,7 @@
 
 ## 2.架构
 
-!(images/image-20251210113202641.png)
+![架构](images/image-20251210113202641.png)
 
 1)数据源：本项目通过Spring模拟数据生成器，分别生成日志以及业务数据。日志数据写入Kafka队列，业务数据写入MySQL数据库。
 
@@ -71,4 +71,5 @@
 
 
 ![image-20251210154827469](C:\Users\32160\AppData\Roaming\Typora\typora-user-images\image-20251210154827469.png)
+
 
