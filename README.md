@@ -74,7 +74,8 @@
 
 
 
-6）可视化示例：Doris作为一个MPP高性能数据库，在查询性能上有显著优势，所以本项目通过Doris Catalog去对接paimon表进行可视化![2025-12-10 164809](images/1111.png)
+6）DataRt可视化示例：StarRocks作为一个MPP高性能数据库，在查询性能上有显著优势，本项目通过StarRocks的paimon catalog对数据进行可视化![2025-12-10 164809](images/1111.png)
+
 
 
 
